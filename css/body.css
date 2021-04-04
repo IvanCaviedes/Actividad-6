@@ -1,0 +1,92 @@
+.bg-ungu{
+  background-color: rgb(165, 160, 250) !important;
+  transition: 0.3s;
+}
+
+.bg-ungu:hover {
+  background-color:rgb(111, 106, 204) !important;
+}
+#main-image {
+  width: 400px;
+}
+.imgpersonalizada {
+  width: 300px;
+}
+.credits a {
+  text-decoration: none;
+  color: black;
+}
+
+.desc{
+    max-width: 400px;
+}
+
+.tebel-banget {
+  font-weight: 900;
+}
+
+.tebel-sedang {
+  font-weight: bold;
+}
+
+
+.gambar{
+  display: none;
+}
+
+.img{
+  width: 700px;
+  z-index: -1;
+}
+
+.link{
+  color: gray;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color: rgb(165, 160, 250);
+}
+
+@media screen and (max-width: 600px) {
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+  .img{
+    width: 500px;
+    z-index: -1;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .img{
+    width: 300px;
+    z-index: -1;
+  }
+
+}
+
+
+
+
